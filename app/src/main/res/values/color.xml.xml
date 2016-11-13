@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_bg_color">#2570ad</color>
+    <color name="sub_bg_color">#177d6e</color>
+    <color name="sub2_bg_color">#ff7790</color>
+</resources>

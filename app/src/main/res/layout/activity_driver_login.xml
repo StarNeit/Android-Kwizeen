@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.kwizeen.fooddelivery.app.main.DriverLoginActivity"
+    android:background="@color/sub_bg_color"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logoimg"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warnning"
+        android:id="@+id/textView2"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/imgLogo"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/editEmail"
+                android:background="@drawable/edittext_round_edge"
+                android:hint="E-mail"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/editPassword"
+                android:background="@drawable/edittext_round_edge"
+                android:hint="Password"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOG IN AS BUYER"
+                android:id="@+id/btnLogIn"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blue_button"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="New To KWIZEEN?\nSignup Here"
+                android:id="@+id/txtShowDriverSignupActivity"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

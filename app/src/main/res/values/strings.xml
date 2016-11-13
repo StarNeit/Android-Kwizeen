@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Kwizeen</string>
+
+    <string name="warnning">Post and advertise your dish for todays menu.</string>
+    <string name="thankyou">Thank You</string>
+    <string name="already_done">YYou have already Voted For Bernie Sanders</string>
+    <string name="driver_contract_finish">Thank You for your Dedication to getting Bernie Sanders Elected President</string>
+    <string name="volunteer_contract_finish">Thank You for your Dedication to getting Bernie Sanders Elected President</string>
+    <string name="driver_contract_not_finish_yet">Please wait for passenger to complete contract</string>
+    <string name="google_map_api_key">AIzaSyA4J6o0amyk1VUGO-h_LXtqQf_SVBXpFHQ</string>
+    <string name="donate_thanks">I want to express my appreciation for your generosity in support of Bernie Taxi. Your personal commitment is incredibly helpful and allows us to reach our goal of getting every Bernie Sanders Supporter to the polls. Your assistance means so much to us but even more to Bernie Sanders Presidential bid. Thank you from all of us at Active Apps.\n\nSincerely, Terrence Daniels</string>
+    <string name="driver_term">All drivers must have automotive insurance</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_passenger_sign_up">PassengerSignUpActivity</string>
+    <string name="title_activity_passenger_login">PassengerLoginActivity</string>
+    <string name="title_activity_driver_sign_up">DriverSignUpActivity</string>
+    <string name="title_activity_driver_login">DriverLoginActivity</string>
+    <string name="title_activity_donate">DonateActivity</string>
+    <string name="title_activity_create_contract_passenger">CreateContractPassengerActivity</string>
+    <string name="title_activity_passenger_contract_show">PassengerContractShowActivity</string>
+    <string name="title_activity_passenger_contract_finish">PassengerContractFinishActivity</string>
+    <string name="title_activity_passenger_user_other_account">PassengerUserOtherAccountActivity
+    </string>
+    <string name="title_activity_passenger_settings">PassengerSettingsActivity</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="title_activity_driver_settings">DriverSettingsActivity</string>
+    <string name="title_activity_driver_pick_contract">DriverPickContractActivity</string>
+    <string name="title_activity_driver_contract_show">DriverContractShowActivity</string>
+    <string name="title_activity_driver_contract_detail">DriverContractDetailActivity</string>
+    <string name="title_activity_driver_contract_finish">DriverContractFinishActivity</string>
+    <string name="title_activity_donate_web_view">DonateWebViewActivity</string>
+    <string name="title_activity_donate_thanks">DonateThanksActivity</string>
+    <string name="imageStr">Click here to set the image of food</string>
+    <string name="title_activity_passenger_contract_list">PassengerContractList</string>
+    <string name="title_activity_my_customer_list">MyCustomerList</string>
+    <string name="title_activity_buyer_pick_food">BuyerPickFoodActivity</string>
+    <string name="title_activity_buyer_foods_detail">BuyerFoodsDetailActivity</string>
+    <string name="title_activity_buyer_my_cart">BuyerMyCartActivity</string>
+    <string name="title_activity_buyer_contract_finish">BuyerContractFinishActivity</string>
+    <string name="status">Status</string>
+    <string name="remove">Remove</string>
+</resources>

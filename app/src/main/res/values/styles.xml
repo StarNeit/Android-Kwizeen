@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar.FullScreen" parent="@style/AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyInfoAppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/main_bg_color</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">@color/main_bg_color</item>
+    </style>
+</resources>

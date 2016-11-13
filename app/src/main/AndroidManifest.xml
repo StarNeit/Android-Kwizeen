@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kwizeen.fooddelivery.app.main" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar.FullScreen"
+        android:largeHeap="true">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".MyCustomerList"
+            android:label="@string/title_activity_my_customer_list"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".BuyerPickFoodActivity"
+            android:label="@string/title_activity_buyer_pick_food"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".BuyerFoodsDetailActivity"
+            android:label="@string/title_activity_buyer_foods_detail"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".BuyerMyCartActivity"
+            android:label="@string/title_activity_buyer_my_cart"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".BuyerContractFinishActivity"
+            android:label="@string/title_activity_buyer_contract_finish"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SellerSignUpActivity"
+            android:label="@string/title_activity_passenger_sign_up"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SellerLoginActivity"
+            android:label="@string/title_activity_passenger_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BuyerSignUpActivity"
+            android:label="@string/title_activity_driver_sign_up"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BuyerLoginActivity"
+            android:label="@string/title_activity_driver_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SellerCreateContractActivity"
+            android:label="@string/title_activity_create_contract_passenger"
+            android:screenOrientation="portrait">
+        </activity>
+        -
+        <activity
+            android:name=".MyFoodList"
+            android:label="@string/title_activity_passenger_contract_list"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SellerFinishContractActivity"
+            android:label="@string/title_activity_passenger_contract_finish"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service android:name="com.kwizeen.fooddelivery.app.utils.LocationFinder" />
+
+    </application>
+
+</manifest>
